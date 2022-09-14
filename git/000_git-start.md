@@ -12,7 +12,6 @@ VCS ( Version Control System ) 로 버전 관리 및 협업을 위해 사용됩�
 	- Commit : 커밋 순간의 스냅샷
 
 2. Git Process Flow , Command
-<br>
 ! ( 추후 사진 추가 예정)
 
 ---
