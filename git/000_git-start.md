@@ -23,14 +23,13 @@ https://gitforwindows.org/ 에서 윈도우 용 Git 설치
 
 > 2. Git 설치 확인 및 환경설정
 
-```shell
-$ git -v
-$ git config --global user.name "유저네임"
-$ git config --global user.email "메일주소"
-$ git config --global core.editor "vim"
-$ git config --global core.pager "cat"
-
-```
+> ```shell
+> $ git -v
+> $ git config --global user.name "유저네임"
+> $ git config --global user.email "메일주소"
+> $ git config --global core.editor "vim"
+> $ git config --global core.pager "cat"
+> ```
 
 > 3. Github 가입
 https://github.com/
