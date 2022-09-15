@@ -75,7 +75,7 @@ D -- Pull --> A
 ---
 
 ### 4. Git Add / Commit / Push 사용
-상단의 [Git Process](#-1.-기초)에서 이해한 명령어 사용 방법
+상단의 [Git Process](#1-기초)에서 이해한 명령어 사용 방법
 1. Git Add
    > ```shell
    > $ git add [파일명]
@@ -119,7 +119,7 @@ D -- Pull --> A
 	> $ git switch main (main으로 통합을 위해 main 으로 이동)
 	> $ git merge [branch 이름]
 	> ```
-	> main 으로 통합 후 [`4. Git 과정`](#4.-Git-Add-/-Commit-/-Push-사용) 을 진행하여 github에 배포
+	> main 으로 통합 후 [`4. Git 과정`](#4-git-add--commit--push-사용) 을 진행하여 github에 배포
 
 4. 특정 Branch 삭제
 	> ```shell
