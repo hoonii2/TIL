@@ -11,7 +11,6 @@ VCS ( Version Control System ) 로 버전 관리 및 협업을 위해 사용됩�
 	- Tree : Blob 이나 Subtree 의 메타데이터 (디렉토리 위치, 속성, 이름 등)
 	- Commit : 커밋 순간의 스냅샷
 
-#Git Process
 2. Git **Process Flow** , **Command**
 ```mermaid
 graph LR
@@ -50,21 +49,21 @@ D -- Pull --> A
 
 1. Github Repo 생성
 
-	> ![1번 이미지](https://github.com/lkh55913/TIL/blob/main/git/000%20%EC%9D%B4%EB%AF%B8%EC%A7%80/1.png)
-	> <br>'Your repositories' 선택
+	> ![1번 이미지](https://github.com/lkh55913/TIL/blob/main/git/000%20%EC%9D%B4%EB%AF%B8%EC%A7%80/1.png) <br>
+	> 'Your repositories' 선택
 
-	> ![2번 이미지](https://github.com/lkh55913/TIL/blob/main/git/000%20%EC%9D%B4%EB%AF%B8%EC%A7%80/2.png)
-	> <br> 'New' 아이콘 선택
+	> ![2번 이미지](https://github.com/lkh55913/TIL/blob/main/git/000%20%EC%9D%B4%EB%AF%B8%EC%A7%80/2.png) <br>
+	> 'New' 아이콘 선택
 
-	> ![3번 이미지](https://github.com/lkh55913/TIL/blob/main/git/000%20%EC%9D%B4%EB%AF%B8%EC%A7%80/3.png)
-	> ① : 사용하고자 하는 'Repository name' 작성
-	> ② : Repository 첫 화면에 나오는 README 파일 생성 여부 선택
+	> ![3번 이미지](https://github.com/lkh55913/TIL/blob/main/git/000%20%EC%9D%B4%EB%AF%B8%EC%A7%80/3.png) <br>
+	> ① : 사용하고자 하는 'Repository name' 작성 <br>
+	> ② : Repository 첫 화면에 나오는 README 파일 생성 여부 선택 <br>
 	> ③ : 위 단계 후 Repository 생성
 
 2. Github Repository 링크 복사
-	> ![3-2-1번 이미지](https://github.com/lkh55913/TIL/blob/main/git/000%20%EC%9D%B4%EB%AF%B8%EC%A7%80/3-2-1.png)
-	> ① : (3-1) 단계에서 만든 Repo 선택
-	> ② : 'Code' 클릭
+	> ![3-2-1번 이미지](https://github.com/lkh55913/TIL/blob/main/git/000%20%EC%9D%B4%EB%AF%B8%EC%A7%80/3-2-1.png) <br>
+	> ① : (3-1) 단계에서 만든 Repo 선택 <br>
+	> ② : 'Code' 클릭 <br>
 	> ③ : 링크 복사
 
 3. Git bash 를 통해 Github Repo 연결
@@ -74,9 +73,9 @@ D -- Pull --> A
 	> clone 명령어로 github repo 로컬 디렉토리에 저장
 
 ---
-#Git Command
+
 ### 4. Git Add / Commit / Push 사용
-상단의 [Git Process](#git-process)에서 이해한 명령어 사용 방법
+상단의 [Git Process](#-1.-기초)에서 이해한 명령어 사용 방법
 1. Git Add
    > ```shell
    > $ git add [파일명]
@@ -120,7 +119,7 @@ D -- Pull --> A
 	> $ git switch main (main으로 통합을 위해 main 으로 이동)
 	> $ git merge [branch 이름]
 	> ```
-	> main 으로 통합 후 [`4. Git 과정`](#git-command) 을 진행하여 github에 배포
+	> main 으로 통합 후 [`4. Git 과정`](#4.-Git-Add-/-Commit-/-Push-사용) 을 진행하여 github에 배포
 
 4. 특정 Branch 삭제
 	> ```shell
