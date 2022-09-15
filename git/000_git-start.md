@@ -14,9 +14,12 @@ VCS ( Version Control System ) 로 버전 관리 및 협업을 위해 사용됩�
 2. Git Process Flow , Command
 ```mermaid
 graph LR
-A[Square Rect] -- Link text --> B((Circle))
-A --> C(Round Rect)
-B --> D{Rhombus}
+A(Working Directory) -- Add --> B(Staging Area)
+B -- Commit --> C(Local .git)
+C -- Checkout --> A
+C -- Push --> D(Remote Github)
+D -- Fetch --> C
+D -- Pull --> A
 ```
 
 ---
